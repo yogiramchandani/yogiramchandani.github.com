@@ -6,7 +6,7 @@ tags:
 - dos
 ---
 
-***doskey*** - The DOS equivalent of the Linux command ***alias*** doesn't persist when cmd.exe launches again.
+***doskey*** - The DOS equivalent of the Linux command ***alias*** doesn`t persist when cmd.exe launches again.
 
 The quickest fix is to script this to run during the initialisation of cmd.exe.
 
