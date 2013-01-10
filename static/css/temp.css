@@ -944,18 +944,18 @@ h4 {
 }
 
 a {
-  color: #06A;
+  color: #ff8700;
   text-decoration: none;
 }
 
 a:hover {
-  color: #06A;
+  color: #ff8700;
   text-decoration: underline;
   cursor: pointer;
 }
 
 a:visited { 
-  color: #607890; 
+  color: #b25e00; 
 }
 
 #posts a {
