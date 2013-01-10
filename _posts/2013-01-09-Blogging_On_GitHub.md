@@ -26,8 +26,8 @@ Why Jekyll with GitHub Pages ?
 
 To get started you need a GitHub account, if your account name is ***username*** just create a repository called ***username.github.com*** and push your content to the master branch.<br/>
 
-Since the content is static (GitHub does not support Jekyll plugins) implementing tags and search can get tricky, luckly this too has been solved.
+Since the content is static (GitHub does not support Jekyll plugins) implementing tags and search can get tricky, luckily this too has been solved.
 
 - [Charlie Park](http://charliepark.org/jekyll-with-plugins/) on tags.
-- [Young Hahn](http://developmentseed.org/blog/2011/09/09/jekyll-github-pages/) on seaching.
+- [JavaScript](http://developmentseed.org/blog/2011/09/09/jekyll-github-pages/) or [Google Custom Search](http://www.google.com/cse/) for searching.
 
