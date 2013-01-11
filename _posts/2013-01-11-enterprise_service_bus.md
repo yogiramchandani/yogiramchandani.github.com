@@ -32,7 +32,7 @@ tags:
 
 **Disadvantages:**
 
-*	[Too much responsibility. Many requests will be serviced by infrastructure features that they do not need.](http://www.infoq.com/articles/ESB-alternative)
+*	[Too much responsibility](http://www.infoq.com/articles/ESB-alternative). Many requests will be serviced by infrastructure features that they do not need.
 *	[Causes vendor lock-in.](http://www.infoq.com/articles/ESB-alternative)
 *	Hard to test infrastructure features.
 *	Slower communication due to infrastructure overhead.
