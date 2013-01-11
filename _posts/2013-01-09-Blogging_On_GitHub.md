@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Blogging On GitHub
+title: Blogging on GitHub
 tags:
 - github
 - jekyll
