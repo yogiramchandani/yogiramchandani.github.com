@@ -21,7 +21,7 @@ tags:
 *	Handles application adapters, routing of messages based on rules, and data transformation engine
 *	"Enterprise Service Bus," author David Chappell states that "Rather than conform to the hub-and-spoke architecture of traditional enterprise application integration products, ESB provides a highly distributed approach to integration." * Most big vendors still follow the hub-and-spoke architecture
 *	general agnosticism to operating-systems and programming-languages; for example, it should enable interoperability between Java and .NET applications
-*	Using the broker pattern, single point of failure, must be robust and performant. But can be overcome using redundancy – which in turn introduces complexity. - [Page 6/15](http://www.hillside.net/plop/2011/papers/B-31-Fernandez.pdf)
+*	Using the broker pattern, single point of failure, must be robust and performant. But can be overcome using redundancy – which in turn introduces complexity. - [ Two patterns for distributed systems: Enterprise Service Bus (pdf) Page 6/15](http://www.hillside.net/plop/2011/papers/B-31-Fernandez.pdf)
 
 **Advantages:**
 
