@@ -1,18 +1,21 @@
 ---
 layout: post
-title: Persisting aliases in cmd
+title: Persisting aliases in Windows
 tags:
 - cmd
-- dos
+- batch
+- bash
 ---
 
-***doskey*** - The DOS equivalent of the Linux command ***alias*** doesn`t persist when cmd.exe launches again.
+The ***doskey*** command (cmd.exe) and ***alias*** command (bash) don't persist between sessions. bash gives us a config file we can save the commands to for persistence but cmd has no such file.
+ 
+##Persisting doskey (cmd)
 
-The quickest fix is to script this to run during the initialisation of cmd.exe.
+For cmd the quickest fix is to script this to run during the initialisation of cmd.exe.
 
 1. Create the script aliases_initialise.cmd in your directory_of_choice (i.e. c:\directory_of_choice\aliases_initialise.cmd) and enter your aliases
 
-{% highlight cmd %}
+{% highlight bat %}
 @echo off
 cls
 doskey clear=cls
@@ -21,8 +24,25 @@ doskey ls=dir
 
 2. Run the command
 
-{% highlight cmd %}
+{% highlight bat %}
 reg add "hkcu\software\microsoft\command processor" /v Autorun /t reg_sz /d c:\directory_of_choice\aliases_initialise.cmd
 {% endhighlight %}
 
-Bang! you're done.
+##Persisting alias (bash)
+
+1. Create a .bashrc file under ~/.bashrc (~ is usually /c/Users/<username>)
+
+{% highlight bash %}
+$ notepad ~/.bashrc
+{% endhighlight %}
+
+2. Add your aliases to the file, save and restart the session.
+
+{% highlight bash %}
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+{% endhighlight %}
+
+`P.S. git for windows is like a bowl of never ending ice cream, it installs bash on windows absolutely free. Now that's customer service.`
