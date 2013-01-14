@@ -21,11 +21,11 @@ SOA can be built on top of any of these styles (but not limited, i.e. non messag
 
 *	Broker is physically separate.
 *	All communication goes through the broker.
-*	Broker handles failover, routing, Data Transformation.
+*	Broker handles failover, routing, data transformation.
 
 **Advantages:**
 
-*	Attempt to handle Spatial Coupling (not as well as Bus), however problem introduced - centralised Routing.
+*	Attempt to handle spatial coupling (not as well as bus), however problem introduced - centralised routing.
 *	Concentrating all communications to a single logical entity, enables central management.
 *	Enables “intelligent” routing, data transformation, orchestration.
 *	Doesn’t require changes to surrounding apps.
@@ -35,8 +35,8 @@ SOA can be built on top of any of these styles (but not limited, i.e. non messag
 *	The broker is a single point of failure, must be robust and performant. But can be overcome using redundancy – which in turn introduces complexity. 
 *	Business logic is centralised.
 *	Procedural programming at a large scale, without good unit testing or source control.
-*	[Lack of accountability, which is the single source of truth?](http://www.udidahan.com/2011/03/24/bus-and-broker-pubsub-differences/)
-*	[Cannot differentiate between Logical and Physical endpoint.](http://www.udidahan.com/2011/03/24/bus-and-broker-pubsub-differences/)
+*	[Lack of accountability](http://www.udidahan.com/2011/03/24/bus-and-broker-pubsub-differences/), which is the single source of truth?
+*	Cannot [differentiate](http://www.udidahan.com/2011/03/24/bus-and-broker-pubsub-differences/) between **logical** and **physical** endpoint.
 
 ### Service Bus ###
 [![Service Bus](http://yogiramchandani.com/static/images/2013-01-11-distributed_system_architectural_styles/service_bus.jpg)](http://yogiramchandani.com/static/images/2013-01-11-distributed_system_architectural_styles/service_bus.jpg)
@@ -50,9 +50,11 @@ SOA can be built on top of any of these styles (but not limited, i.e. non messag
 
 *	No single point of failure.
 *	Bus is simpler – no routing or service fail over.
-*	[Doesn’t  break service autonomy.](http://en.wikipedia.org/wiki/Service_autonomy_principle)
-*	[Reduces Spatial Coupling – “when one service is moved from one server to another this will not stop communications to that service”.](http://www.udidahan.com/2006/07/21/how-soa-helps-you-hit-the-agile-sweet-spot)
-*	[Allows one Logical endpoint to scale out to multiple Physical endpoints.](http://www.udidahan.com/2011/03/24/bus-and-broker-pubsub-differences/)
+*	Doesn’t  break [service autonomy](http://en.wikipedia.org/wiki/Service_autonomy_principle).
+*	Reduces [spatial coupling](http://www.udidahan.com/2006/07/21/how-soa-helps-you-hit-the-agile-sweet-spot):
+>>“when one service is moved from one server to another this will not stop communications to that service” - Udi Dahan
+
+*	Allows one **logical** endpoint to [scale out](http://www.udidahan.com/2011/03/24/bus-and-broker-pubsub-differences/) to multiple **physical** endpoints.
 
 **Disadvantage:**
 

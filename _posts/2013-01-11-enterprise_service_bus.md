@@ -39,8 +39,7 @@ tags:
 *	On [Content Based](http://www.udidahan.com/2011/03/20/careful-with-content-based-routing) Routing : 
 
 >>“[When implementing a Content-Based Router, special caution should be taken to make the routing function easy to maintain as the router can become a point of frequent maintenance](http://www.eaipatterns.com/ContentBasedRouter.html)”<br/>
-- Enterprise Integration Patterns
-Gregor Hohpe and Bobby Woolf
+- Enterprise Integration Patterns, Gregor Hohpe and Bobby Woolf
 
 
 

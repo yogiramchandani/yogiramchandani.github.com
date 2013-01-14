@@ -10,9 +10,9 @@ GitHub Pages is a great example of **it just works**. Internally it uses a parsi
 
 Why Jekyll with GitHub Pages ?
 
-- Minimalistic - It comes with no content, you create the components.
+- Minimalistic - It comes with no content, you create the components (very clean).
 
-- Convention over configuration - It expects a certain [structure](https://github.com/mojombo/jekyll/wiki/Usage) for your website, reducing the configuration files.
+- Convention over configuration - It expects a certain [structure](https://github.com/mojombo/jekyll/wiki/Usage) for your website, reducing the configuration files (and exceptions due to mis-configuration).
 
 - [Markdown](http://daringfireball.net/projects/markdown/) - don't need any fancy editors to write posts.
 
