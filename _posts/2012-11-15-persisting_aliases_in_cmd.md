@@ -45,4 +45,3 @@ alias .4='cd ../../../../'
 alias .5='cd ../../../../..'
 {% endhighlight %}
 
-`P.S. git for windows is like a bowl of never ending ice cream, it installs bash on windows absolutely free. Now that's customer service.`
